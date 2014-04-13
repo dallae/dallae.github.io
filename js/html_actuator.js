@@ -1,4 +1,4 @@
-function HTMLActuator() {
+﻿function HTMLActuator() {
   this.tileContainer    = document.querySelector(".tile-container");
   this.scoreContainer   = document.querySelector(".score-container");
   this.bestContainer    = document.querySelector(".best-container");
@@ -156,7 +156,7 @@ HTMLActuator.prototype.scoreTweetButton = function () {
   tweet.classList.add("twitter-share-button");
   tweet.setAttribute("href", "https://twitter.com/share");
   tweet.setAttribute("data-via", "dallae1");
-  tweet.setAttribute("data-url", "http://git.io/2048");
+  tweet.setAttribute("data-url", "http://dallae.github.io/");
   tweet.setAttribute("data-counturl", "http://dallae.github.io/");
   tweet.textContent = "Tweet";
 
