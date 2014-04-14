@@ -161,7 +161,7 @@ HTMLActuator.prototype.scoreTweetButton = function () {
   tweet.textContent = "Tweet";
 
   var text = "मैले  " + this.score + " points पाएँ जड्गे,  भन्ने गेममा जहाँ मान्छे जोडे " +
-             " जितिन्छ! dallae.github.io #jungegame";
+             " जितिन्छ! #jungegame";
   tweet.setAttribute("data-text", text);
 
   return tweet;
